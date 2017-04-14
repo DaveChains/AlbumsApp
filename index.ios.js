@@ -6,17 +6,23 @@
 
 // index.ios.js
 // Import Library to help create components
-import React from 'react';
 import {
-    Text,
-    AppRegistry
+    AppRegistry,
+    View
 } from 'react-native';
+
+import React from 'react';
+import Header from './src/components/header';
+import AlbumList from './src/components/AlbumList';
 
 
 // create component
 const APP = () => {
   return (
-     <Text>SOme Text</Text>
+      <View>
+          <Header headerText={'Albums'} />
+          <AlbumList />
+      </View>
   );
 }
 // render component
