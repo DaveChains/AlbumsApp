@@ -37,4 +37,4 @@ const styles = {
 };
 
 // render component
-export default Header
+export default Header;

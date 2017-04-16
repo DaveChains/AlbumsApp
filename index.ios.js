@@ -24,7 +24,7 @@ const APP = () => {
           <AlbumList />
       </View>
   );
-}
+};
 // render component
-AppRegistry.registerComponent('AlbumsApp', () => APP)
+AppRegistry.registerComponent('AlbumsApp', () => APP);
 
